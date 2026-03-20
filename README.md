@@ -1,5 +1,15 @@
-# rag-agent-chat-system
-# RAG Agent Chat System
+# Rag-Agent-Chat-System
+Built a chat-style Retrieval-Augmented Generation (RAG) system that answers 
+user queries by retrieving relevant context from a daily-updated MySQL database 
+and passing it to a local LLM for grounded responses.
+
+Key highlights:
+- LLM tool-calling to fetch real-time data from structured database
+- FAISS vector search for semantic document retrieval
+- FastAPI backend serving the chat interface
+- Fully local — no OpenAI API dependency
+
+Stack: Python · FAISS · LLM · FastAPI · MySQL
 
 A chat-based Retrieval-Augmented Generation (RAG) system using:
 - Local LLM via Ollama
